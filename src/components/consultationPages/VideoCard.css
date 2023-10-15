@@ -1,0 +1,33 @@
+/* VideoCard.css */
+.video-card {
+    margin: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .video-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .video-card-info {
+    padding: 10px;
+  }
+  
+  .video-card-info h2 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .video-card-info p {
+    font-size: 14px;
+    color: #888;
+    margin: 5px 0;
+  }
+  
+  /* You can further customize the styles based on your preferences. */
+  

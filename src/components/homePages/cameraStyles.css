@@ -1,0 +1,11 @@
+.custom-camera {
+    display: flex;
+  }
+  
+  .custom-camera-video {
+    padding: 1rem;
+    width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+  }
+  

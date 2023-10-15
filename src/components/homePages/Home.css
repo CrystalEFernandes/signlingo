@@ -1,0 +1,14 @@
+.home {
+    display: flex;
+  }
+  
+  .camera-container {
+    flex: 1;
+    padding: 20px; 
+  }
+  
+  .chatbox-container {
+    flex: 1; 
+    padding: 20px; 
+  }
+  

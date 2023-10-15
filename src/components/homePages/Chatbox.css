@@ -1,0 +1,55 @@
+/* Chatbox.css */
+.chatbox {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    width: 90%;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chat-history {
+    max-height: 80%; 
+  }
+  
+  .message {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    word-wrap: break-word; /* Allow long messages to wrap */
+  }
+  
+  .user {
+    background-color: #f0f0f0;
+    text-align: right;
+  }
+  
+  .bot {
+    background-color: #d4e5e7;
+    text-align: left;
+  }
+  
+  .chat-input {
+    display: flex;
+    flex-direction: column; /* Stack the input field below the chat history */
+    margin-top: 10px; /* Add some spacing between chat history and input field */
+  }
+  
+  input {
+    margin-bottom: 10px; /* Push the input field down */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
